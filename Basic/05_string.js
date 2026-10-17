@@ -30,7 +30,7 @@ const gameName = new String("Gta") // creating a string object using the String 
  console.log(gameName.trim()) // Gta trim is used to remove whitespace from both ends of a string. It does not affect the original string, but returns a new string with the whitespace removed.
 
 
-
+// more string methods can be found at https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
 
 
 
