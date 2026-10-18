@@ -62,4 +62,4 @@ console.log(id, name, isLoggedIn); // access destructured properties
 const { email } = regularUser; // destructuring object
 console.log(email); // access destructured properties
 
- 
+console.log(regularUser.fullname.userFullName.fristName); // access nested object property using dot notation
