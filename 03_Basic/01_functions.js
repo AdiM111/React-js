@@ -31,4 +31,23 @@ function calculateCartPrice(...num1) {  // rest parameter to accept multiple arg
  //console.log(calculateCartPrice(100 ,200,300,400)); // Output: 100
 
 
- 
+const user ={
+    userName: "Aditya",
+    price : 1000
+}
+
+function handleObject(anyobject){
+    console.log(`Username is ${anyobject.userName} and price is ${anyobject.price}`);
+}
+//handleObject(user); // Output: Username is Aditya and price is 1000
+
+//handle Object({userName: "Atul", price: 10}); // Output: Username is Atul and price is 10
+
+const myNewArray = [1, 2, 3, 4, 5];
+
+function returnArray(getarray){
+    return getarray;
+}
+
+//console.log(returnArray(myNewArray)); // Output: [1, 2, 3, 4, 5]
+console.log(returnArray([10, 20, 30, 40, 50])); // Output: [10, 20, 30, 40, 50]
